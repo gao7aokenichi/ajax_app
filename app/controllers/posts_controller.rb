@@ -14,6 +14,7 @@ class PostsController < ApplicationController
   end
   #checkedというアクションを定義
   def checked
+    
     post = Post.find(params[:id])
     if post.checked 
       post.update(checked: false)
