@@ -7,3 +7,7 @@
 .post-date{
   color: gray;
 }
+/* 既読時にグレーアウトする*/
+div[data-check="true"] {
+  background: #585555;
+}
